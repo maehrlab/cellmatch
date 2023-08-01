@@ -1,0 +1,20 @@
+Package: cellmatch
+Type: Package
+Title: Interpretable Matching of Cell Type Profiles
+Version: 0.0.0.9000
+Author: Eric Kernfeld
+Maintainer: Eric Kernfeld <eric.kernfeld@umassmed.edu>
+Description: Pairs cellular profiles from reference and query datasets in
+    a way that handles imperfection and ambiguity through model
+    selection and interpretable visualizations.
+    Designed for analysis of transcriptomic data from stem cells and 
+    embryo atlases.
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown, Seurat
+Imports: magrittr, Matrix, ggplot2, reshape2
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2020-03-27 22:13:04 UTC; erickernfeld
