@@ -9,9 +9,7 @@ To install from github:
     install.packages("devtools") #if you don't have devtools already
     devtools::install_github("maehrlab/cellmatch", build_vignettes = TRUE)
    
-To install locally from a bundle:
 
-    "path/to/cellmatch_0.0.0.9000.tar.gz"
    
 ##### Use
 
